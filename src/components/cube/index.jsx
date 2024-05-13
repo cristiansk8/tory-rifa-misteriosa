@@ -2,7 +2,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Canvas, useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three/src/loaders/TextureLoader';
-import styles from './style.module.scss';
 import { OrbitControls} from '@react-three/drei';
 import { useMotionValue, useSpring, useScroll, useTransform } from 'framer-motion';
 import { motion } from 'framer-motion-3d';
@@ -18,8 +17,8 @@ export default function index() {
     const smoothProgress = useSpring(progress, {damping: 20});
 
     return (
-        <div ref={container} className={styles.main}>
-            <div className={styles.cube}>
+        <div ref={container} className="w-full">
+            <div className="w-full">
                 <Canvas>
                     <OrbitControls enableZoom={false} enablePan={false}/>
                     <ambientLight intensity={2}/>
