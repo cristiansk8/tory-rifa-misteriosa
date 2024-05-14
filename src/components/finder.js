@@ -22,7 +22,7 @@ const Finder = () => {
                                 React.createElement('div', { className: "max-w-xsborder", key: index },
                                     React.createElement('div', { className: 'p-1 text-left' },
                                         React.createElement('h3', { className: `mx-auto mb-2 text-xl text-center md:text-6xl md:mx-0 md:mb-8 tracking-wide` },
-                                            `Compraste ${tricket.boletas} boleta(s), que la suerte te acompañe`
+                                            `Hola ${tricket.nombre} ompraste ${tricket.boletas} boleta(s), que la suerte te acompañe`
                                         )
                                     )
                                 )

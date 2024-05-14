@@ -407,6 +407,12 @@ export const participantes= [
           nombre: "Johan Pachon",
           telefono: "1014298661",
           boletas: 3
+        },
+        {
+          email: "gisanchezm@unal.edu.co",
+          nombre: "Totu",
+          telefono: "3045304425",
+          boletas: 2
         }
       
 ]
