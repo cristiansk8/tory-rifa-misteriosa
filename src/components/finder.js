@@ -8,8 +8,8 @@ const Finder = () => {
 
     return (
         React.createElement('div', null,
-            React.createElement('div', { className: "flex w-full flex-wrap content-center justify-center px-7" },
-                React.createElement('div', { className: "grid grid-cols-2 gap-3 md:grid-cols-3" },
+            React.createElement('div', { className: "continer-finder" },
+                React.createElement('div', { className: "container-input" },
                     React.createElement(Input, {
                         type: "email",
                         value: email,
@@ -22,7 +22,7 @@ const Finder = () => {
                                 React.createElement('div', { className: "max-w-xsborder", key: index },
                                     React.createElement('div', { className: 'p-1 text-left' },
                                         React.createElement('h3', { className: `mx-auto mb-2 text-xl text-center md:text-6xl md:mx-0 md:mb-8 tracking-wide` },
-                                            `Compraste ${tricket.boletas} boletas`
+                                            `Compraste ${tricket.boletas} boleta(s), que la suerte te acompañe`
                                         )
                                     )
                                 )

@@ -2,6 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     margin: 0px;
+    background-image: url(/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+canvas {
+    display: block;
+    width: 1088px;
+    height: 934px;
+    touch-action: none;
+}
+
+.container-find-email {
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.container-find-email h2 {
+    font-size: 30px;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    /* Color de fondo del banner */
+    height: 90px;
+    /* Altura del banner */
+    display: flex;
+    justify-content: space-between;
+    /* Para colocar el logo a la izquierda y las redes a la derecha */
+    align-items: center;
+    /* Para centrar verticalmente el contenido */
+    padding: 0 20px;
+    /* Ajuste de espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+.banner .logo img {
+    height: auto;
+    /* Tamaño del logo */
+    width: 100px;
+}
+
+.banner .social-links a {
+    margin-left: 10px;
+    /* Espaciado entre los íconos de redes sociales */
+}
+
+.container-input input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 20px;
 }

@@ -19,6 +19,12 @@ export const participantes= [
           boletas: 1
         },
         {
+          email: "cdpsk8@gmail.com",
+          nombre: "cristian parra",
+          telefono: "3125225009",
+          boletas: 3
+        },
+        {
           email: "andreyskate12@gmail.com",
           nombre: "Maicol Álvarez",
           telefono: "3133872570",
