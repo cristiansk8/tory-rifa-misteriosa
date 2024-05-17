@@ -20,8 +20,8 @@ export default function Home() {
           </div>
           <div className='item'>
             <div className='info'>
-              <p>Recibiras un correo en menos de 24 horas*</p>
-              <p>Mas abajo puedes consultar los tickets*</p>
+              <p className='mail'>Recibiras un correo en menos de 24 horas*</p>
+              <p className='flecha'>Aquì puedes consultar los tickets*</p>
             </div>
 
           </div>
