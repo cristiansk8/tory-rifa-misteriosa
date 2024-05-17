@@ -10,6 +10,25 @@ body {
     background-position: center;
 }
 
+.container-caption{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.container-caption .item{
+    width: 33%;
+}
+
+.container-caption .item p{
+    font-size: 24px;
+    color: #000;
+    font-weight: 900;
+    background: #fefefe;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
 canvas {
     display: block;
     width: 1088px;
