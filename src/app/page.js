@@ -10,22 +10,8 @@ export default function Home() {
       <div className='container-find-email'>
         <div className='container-caption'>
           <div className='item'>
-            <p>Recibimos Nequi o Daviplata</p>
-            <Image src="/nequi.png" width="400" height="400" alt="nequi" />
-
-          </div>
-          <div className='item'>
             <Image src="/tory-box.png" width="400" height="400" alt="logo" />
-
           </div>
-          <div className='item'>
-            <div className='info'>
-              <p className='mail'>Recibiras un correo en menos de 24 horas*</p>
-              <p className='flecha'>Aquì puedes consultar los tickets*</p>
-            </div>
-
-          </div>
-
         </div>
         <h2>Consulta con tu correo</h2>
         <Finder />
