@@ -14,7 +14,7 @@ const Finder = () => {
                         type: "email",
                         value: email,
                         onChange: (e) => setEmail(e.target.value),
-                        placeholder: "Enter your email"
+                        placeholder: "Ingresa tu correo"
                     }),
                     participantes.map((tricket, index) => {
                         if (tricket.email === email) {
@@ -22,7 +22,7 @@ const Finder = () => {
                                 React.createElement('div', { className: "max-w-xsborder", key: index },
                                     React.createElement('div', { className: 'p-1 text-left' },
                                         React.createElement('h3', { className: `mx-auto mb-2 text-xl text-center md:text-6xl md:mx-0 md:mb-8 tracking-wide` },
-                                            `Hola ${tricket.nombre} compraste ${tricket.boletas} boleta(s), que la suerte te acompañe`
+                                            `Hola ${tricket.nombre} compraste ${tricket.boletas} boleta(s), mucha suerte`
                                         )
                                     )
                                 )
