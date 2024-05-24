@@ -414,5 +414,11 @@ export const participantes= [
           telefono: "3045304425",
           boletas: 2
         }
+        {
+          email: "sergioe_419@hotmail.com",
+          nombre: "Sergio Rojas",
+          telefono: "3046101741",
+          boletas: 6
+        }
       
 ]
