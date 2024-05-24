@@ -4,21 +4,18 @@
 
 body {
     margin: 0px;
-    background: #005075;
+    background-image: url(/bg-2.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: bottom;
 }
 
 .castor{
-    background-image: url(/bg-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: inherit;
+
 }
 
 .cubo{
-    background-image: url(/bg-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .container-caption{
