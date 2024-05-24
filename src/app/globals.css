@@ -4,6 +4,16 @@
 
 body {
     margin: 0px;
+}
+
+.castor{
+    background-image: url(/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+
+.cubo{
     background-image: url(/bg-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,36 +27,6 @@ justify-content: center;
 }
 .container-caption .item{
 }
-
-.container-caption .item p{
-    text-align: left;
-    font-size: 24px;
-    color: #000;
-    font-weight: 900;
-    background: #fefefe;
-    padding: 10px;
-    border-radius: 20px;
-}
-.container-caption .item .info .mail::before{
-    content: '';
-    display: inline-block; /* Asegura que el pseudo-elemento se muestre en línea */
-    width: 50px; /* Ancho de la imagen */
-    height: 50px; /* Alto de la imagen */
-    background-image: url('/mail.png'); /* Ruta de la imagen */
-    background-size: cover; /* Asegura que la imagen cubra completamente el pseudo-elemento */
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
-}
-
-.container-caption .item .info .flecha::before{
-    content: '';
-    display: inline-block; /* Asegura que el pseudo-elemento se muestre en línea */
-    width: 50px; /* Ancho de la imagen */
-    height: 50px; /* Alto de la imagen */
-    background-image: url('/flecha.png'); /* Ruta de la imagen */
-    background-size: cover; /* Asegura que la imagen cubra completamente el pseudo-elemento */
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
-}
-
 
 canvas {
     display: block;
@@ -100,4 +80,7 @@ canvas {
     width: 60%;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.w-full{
 }
