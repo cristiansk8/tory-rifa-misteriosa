@@ -413,7 +413,7 @@ export const participantes= [
           nombre: "Totu",
           telefono: "3045304425",
           boletas: 2
-        }
+        },
         {
           email: "sergioe_419@hotmail.com",
           nombre: "Sergio Rojas",
