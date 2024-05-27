@@ -419,6 +419,103 @@ export const participantes= [
           nombre: "Sergio Rojas",
           telefono: "3046101741",
           boletas: 6
-        }
+        },
+        //tanda 26/05/202
+        {
+          email: "Lolarte9706@gmail.com",
+          nombre: "Laura Olarte",
+          telefono: "3225119819",
+          boletas: 1
+      },
+      {
+          email: "lorenamorenotriana@gmail.com",
+          nombre: "Lorena Moreno",
+          telefono: "3128801602",
+          boletas: 1
+      },
+      {
+          email: "Jvalenciamarin91@gmail.com",
+          nombre: "Sebas",
+          telefono: "3225432849",
+          boletas: 3
+      },
+      {
+          email: "Enchansibiris@gmail.com",
+          nombre: "Laura Velasquez Rodriguez",
+          telefono: "3008757469",
+          boletas: 4
+      },
+      {
+          email: "Stefaniafigueredosb@gmail.com",
+          nombre: "Stefania Figueredo",
+          telefono: "3103089475",
+          boletas: 2
+      },
+      {
+          email: "Mariaabibotero@gmail.com",
+          nombre: "María",
+          telefono: "3222656851",
+          boletas: 2
+      },
+      {
+          email: "santiagoangulosb@gmail.com",
+          nombre: "Santiago Angulo",
+          telefono: "3025688395",
+          boletas: 1
+      },
+      {
+          email: "Samecitysamelife@gmail.com",
+          nombre: "Andrés Cuellar",
+          telefono: "3173814808",
+          boletas: 6
+      },
+      {
+          email: "Vanesaacevedo1341@gmail.com",
+          nombre: "Vanesa Acevedo",
+          telefono: "3023688948",
+          boletas: 1
+      },
+      {
+          email: "ealvarezno25@gmail.com",
+          nombre: "Andrés Alvarez",
+          telefono: "3001383717",
+          boletas: 20
+      },
+      {
+          email: "victor.arc.uenca@hotmail.com",
+          nombre: "Victor Arcila Cuenca",
+          telefono: "3152544675",
+          boletas: 10
+      },
+      {
+          email: "alekos20@gmail.com",
+          nombre: "Alejo Mutante",
+          telefono: "3002712532",
+          boletas: 2
+      },
+      {
+          email: "yesguzmo@gmail.com",
+          nombre: "Yesid Moniquira",
+          telefono: "n/a",
+          boletas: 3
+      },
+      {
+          email: "claan.sas@hotmail.com",
+          nombre: "Adriana Jaramillo",
+          telefono: "3002384523",
+          boletas: 5
+      },
+      {
+        email: "noodlevalu@gmail.com",
+        nombre: "Valu",
+        telefono: "3106736952",
+        boletas: 1
+    },
+    {
+      email: "ldsanchez723@gmail.com",
+      nombre: "David Sánchez",
+      telefono: "3164519146",
+      boletas: 2
+  }
       
 ]
