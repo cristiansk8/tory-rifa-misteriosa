@@ -521,7 +521,7 @@ export const participantes = [
     email: "cristian1014309@hotmail.com",
     nombre: "Cristian Fajardo",
     telefono: "3112956559",
-    boletas: 2
+    boletas: 10
   }
   
 ]
