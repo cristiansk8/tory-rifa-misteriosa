@@ -522,6 +522,12 @@ export const participantes = [
     nombre: "Cristian Fajardo",
     telefono: "3112956559",
     boletas: 10
+  },
+  {
+    email: "nataliarodriguezduarte@gmail.com",
+    nombre: "Natalia Rodríguez Duarte",
+    telefono: "3144695662",
+    boletas: 2
   }
   
 ]
