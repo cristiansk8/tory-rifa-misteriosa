@@ -528,6 +528,36 @@ export const participantes = [
     nombre: "Natalia Rodríguez Duarte",
     telefono: "3144695662",
     boletas: 2
+  },
+  {
+    email: "carolinagarzonarevalo@gmail.com",
+    nombre: "Carolina Garzón Arévalo",
+    telefono: "3229504401",
+    boletas: 20
+  },
+  {
+    email: "Luisafc15@gmail.com",
+    nombre: "Luisa Arredondo",
+    telefono: "3002710074",
+    boletas: 1
+  },
+  {
+    email: "catcherry.91@gmail.com",
+    nombre: "Cherry",
+    telefono: "3194159354",
+    boletas: 7
+  },
+  {
+    email: "operacioneslp18@gmail.com",
+    nombre: "Oscar Páez",
+    telefono: "3196433869",
+    boletas: 4
+  },
+  {
+    email: "Ccedielperdomo@gmail.com",
+    nombre: "Cediel Perdomo",
+    telefono: "3122112014",
+    boletas: 2
   }
   
 ]
