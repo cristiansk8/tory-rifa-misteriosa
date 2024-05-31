@@ -17,7 +17,7 @@ const Finder = () => {
                         placeholder: "Ingresa tu correo"
                     }),
                     participantes.map((tricket, index) => {
-                        if (tricket.email === email) {
+                        if (tricket.email.toLowerCase() === email.toLowerCase()) {
                             return (
                                 React.createElement('div', { className: "max-w-xsborder", key: index },
                                     React.createElement('div', { className: 'p-1 text-left' },

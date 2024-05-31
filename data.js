@@ -558,6 +558,13 @@ export const participantes = [
     nombre: "Cediel Perdomo",
     telefono: "3122112014",
     boletas: 2
+  },
+  {
+    email: "sk8juliansb@gmail.com",
+    nombre: "Julián Rincón ",
+    telefono: "3212771727",
+    boletas: 6
   }
+
   
 ]
