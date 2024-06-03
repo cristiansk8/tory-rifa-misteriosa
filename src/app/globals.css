@@ -10,12 +10,22 @@ body {
     background-position: bottom;
 }
 
-.castor{
-
+button{
+    padding: 10px;
+    background: white;
+    border: solid;
+    font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+    font-weight: bold;
+    border-radius: 15px;
 }
-
-.cubo{
-
+button:hover{
+    padding: 10px;
+    background: #000 !important;
+    color: #fff;
+    border: solid #fff;
+    font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 .container-caption{

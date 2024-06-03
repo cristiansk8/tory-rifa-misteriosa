@@ -1,6 +1,7 @@
 
 import Cube from '@/components/cube';
 import Finder from '@/components/finder';
+import Sorteo from '@/components/winers';
 import Count from '@/components/countdown';
 import Image from "next/image"
 
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <h2>Consulta con tu correo</h2>
         <Finder />
+        <Sorteo />
       </div>
       <div className='cubo'>
         <Cube />
