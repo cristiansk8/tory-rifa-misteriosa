@@ -1,5 +1,4 @@
-// pages/Sorteo.js
-'use client'
+'use client';
 import React, { useState } from 'react';
 import { participantes } from '../../data';
 
@@ -20,24 +19,47 @@ function realizarSorteo(participantes, numGanadores) {
   return Array.from(ganadores);
 }
 
+function ocultarTexto(text, startLen, endLen) {
+  const totalLen = text.length;
+  if (totalLen <= startLen + endLen) return text;
+  const start = text.substring(0, startLen);
+  const end = text.substring(totalLen - endLen, totalLen);
+  const middle = '*'.repeat(totalLen - startLen - endLen);
+  return `${start}${middle}${end}`;
+}
+
+function cifrarGanador(ganador) {
+  return {
+    ...ganador,
+    nombre: ocultarTexto(ganador.nombre, 2, 2),
+    email: ocultarTexto(ganador.email, 3, 2),
+    telefono: ocultarTexto(ganador.telefono, 3, 2)
+  };
+}
+
 const Sorteo = () => {
   const [ganadores, setGanadores] = useState([]);
 
   const handleSorteo = () => {
-    const ganadores = realizarSorteo(participantes, 3);
-    setGanadores(ganadores);
+    const ganadoresOriginales = realizarSorteo(participantes, 3);
+    const ganadoresCifrados = ganadoresOriginales.map(cifrarGanador);
+    setGanadores(ganadoresCifrados);
   };
 
   return (
     <div>
-      <p>El sorteo es este miercoles 5 de junio </p>
+      <p>El sorteo es este miércoles 5 de junio</p>
       <img src="/location.png" width="60" height="60" alt="logo" />
-      <h1>Lugar: Nicolas de federman</h1>
+      <h1>Lugar: Nicolás de Federman</h1>
       <button onClick={handleSorteo}>Prueba tu suerte</button>
       <h2>Ganadores:</h2>
-        {ganadores.map((ganador, index) => (
-            <p>{ganador.email}</p>
-        ))}
+      {ganadores.map((ganador, index) => (
+        <div key={index}>
+          <p>Ganador {index + 1}</p>
+          <p>Nombre: {ganador.nombre}</p>
+          <p>Email: {ganador.email}</p>
+        </div>
+      ))}
     </div>
   );
 };
