@@ -564,7 +564,36 @@ export const participantes = [
     nombre: "Julián Rincón ",
     telefono: "3212771727",
     boletas: 6
+  },
+  {
+    email: "hamon0150@gmail.com",
+    nombre: "Johan Stiven Hamon Toledo ",
+    telefono: "3052744061",
+    boletas: 2
+  },
+  {
+    email: "gabriellalvarez2604@gmail.com",
+    nombre: "Gabriella Alvarez ",
+    telefono: "3024058358",
+    boletas: 20
+  },
+  {
+    email: "gonzalez.monica@correounivalle.edu.co",
+    nombre: "Monica",
+    telefono: "3006606404",
+    boletas: 2
+  },
+  {
+    email: "camiloandresosoriocolmenares@gmail.com",
+    nombre: "Camilo Andrés Osorio Colmenares ",
+    telefono: "3235940505",
+    boletas: 2
+  },
+  {
+    email: "Molinajosedaniel242@gmail.com",
+    nombre: "Daniel Molina",
+    telefono: "3138845859",
+    boletas: 2
   }
-
   
 ]
