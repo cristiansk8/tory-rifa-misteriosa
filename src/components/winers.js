@@ -31,19 +31,26 @@ function ocultarTexto(text, startLen, endLen) {
 function cifrarGanador(ganador) {
   return {
     ...ganador,
-    nombre: ocultarTexto(ganador.nombre, 2, 2),
-    email: ocultarTexto(ganador.email, 3, 2),
-    telefono: ocultarTexto(ganador.telefono, 3, 2)
+    nombre: ocultarTexto(ganador.nombre, 80, 30),
+    email: ocultarTexto(ganador.email, 100, 80),
+    telefono: ocultarTexto(ganador.telefono, 40, 40)
   };
 }
 
 const Sorteo = () => {
   const [ganadores, setGanadores] = useState([]);
+  const [error, setError] = useState(null);
 
   const handleSorteo = () => {
-    const ganadoresOriginales = realizarSorteo(participantes, 3);
-    const ganadoresCifrados = ganadoresOriginales.map(cifrarGanador);
-    setGanadores(ganadoresCifrados);
+    const password = window.prompt('Ingrese la contraseña para realizar el sorteo:');
+    if (password === 'tory123$') {
+      const ganadoresOriginales = realizarSorteo(participantes, 3);
+      const ganadoresCifrados = ganadoresOriginales.map(cifrarGanador);
+      setGanadores(ganadoresCifrados);
+      setError(null);
+    } else {
+      setError('Contraseña incorrecta. Inténtalo de nuevo.');
+    }
   };
 
   return (
@@ -52,12 +59,15 @@ const Sorteo = () => {
       <img src="/location.png" width="60" height="60" alt="logo" />
       <h1>Lugar: Nicolás de Federman</h1>
       <button onClick={handleSorteo}>Prueba tu suerte</button>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
       <h2>Ganadores:</h2>
       {ganadores.map((ganador, index) => (
         <div key={index}>
           <p>Ganador {index + 1}</p>
           <p>Nombre: {ganador.nombre}</p>
           <p>Email: {ganador.email}</p>
+          <p>Email: {ganador.telefono}</p>
+          <p>-----</p>
         </div>
       ))}
     </div>

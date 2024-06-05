@@ -410,9 +410,9 @@ export const participantes = [
   },
   {
     email: "gisanchezm@unal.edu.co",
-    nombre: "Totu",
+    nombre: "Gian Totu",
     telefono: "3045304425",
-    boletas: 2
+    boletas: 20
   },
   {
     email: "sergioe_419@hotmail.com",
@@ -594,6 +594,72 @@ export const participantes = [
     nombre: "Daniel Molina",
     telefono: "3138845859",
     boletas: 2
+  },
+  {
+    email: "lina@depura-creatividad.com",
+    nombre: "Lina Navas",
+    telefono: "3123315113",
+    boletas: 2
+  },
+  {
+    email: "ricojhricomunera@gmail.com",
+    nombre: "Tato munera",
+    telefono: "3102372739",
+    boletas: 3
+  },
+  {
+    email: "Cristejada71@gmail.com",
+    nombre: "Cristian David Tejada Arismendy",
+    telefono: "3193557217",
+    boletas: 5
+  },
+  {
+    email: "mspac-man@hotmail.com",
+    nombre: "Paola peñaranda ",
+    telefono: "3053018228",
+    boletas: 22
+  },
+  {
+    email: "jaji-23@hotmail.com",
+    nombre: "Javier jimenez",
+    telefono: "3195557217",
+    boletas: 100
+  },
+  {
+    email: "pedro222@gmail.com",
+    nombre: "Pedro palacios",
+    telefono: "3195557717",
+    boletas: 100
+  },
+  {
+    email: "sebas-ca@gmail.com",
+    nombre: "Sebastin gomez",
+    telefono: "3195227717",
+    boletas: 100
+  },
+  {
+    email: "mari-anask8@gmail.com",
+    nombre: "Mariana Marin",
+    telefono: "3123385698",
+    boletas: 100
+  },
+  {
+    email: "branddolcevita@gmail.com",
+    nombre: "Daniel",
+    telefono: "3118521770",
+    boletas: 30
+  },
+  {
+    email: "giraldoviera.miguel@gmail.com",
+    nombre: "Miguel giraldo",
+    telefono: "3015107633",
+    boletas: 45
+  },
+  {
+    email: "davidzj789@gmail.com",
+    nombre: "David Rivera",
+    telefono: "3185206533",
+    boletas: 3
   }
   
 ]
