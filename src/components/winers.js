@@ -55,10 +55,10 @@ const Sorteo = () => {
     <div>
       <p>El sorteo es este miércoles 5 de junio</p>
       <Image
-      src="/location.png"
+      src='/location.png'
       width={60}
       height={60}
-      alt="location-rifa-tory"
+      alt='location-rifa-tory'
     />
       <h1>Lugar: "pronto sera anunciado"</h1>
       <button onClick={handleSorteo}>Prueba tu suerte</button>
