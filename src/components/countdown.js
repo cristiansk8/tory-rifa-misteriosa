@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const CountdownTimer = ({ targetDate }) => {
+function CountdownTimer({ targetDate }) {
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
     const difference = targetDate - now;
@@ -47,6 +47,6 @@ const CountdownTimer = ({ targetDate }) => {
       )}
     </div>
   );
-};
+}
 
 export default CountdownTimer;
