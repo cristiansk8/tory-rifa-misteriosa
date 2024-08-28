@@ -1,6 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import { participantes } from '../../data';
+import Image from 'next/image'
+
 
 function realizarSorteo(participantes, numGanadores) {
   const listaSorteo = [];
@@ -52,7 +54,12 @@ const Sorteo = () => {
   return (
     <div>
       <p>El sorteo es este miércoles 5 de junio</p>
-      <img src="/location.png" width="60" height="60" alt="logo" />
+      <Image
+      src="/location.png"
+      width={60}
+      height={60}
+      alt="location-rifa-tory"
+    />
       <h1>Lugar: "pronto sera anunciado"</h1>
       <button onClick={handleSorteo}>Prueba tu suerte</button>
       {error && <p style={{ color: 'red' }}>{error}</p>}
