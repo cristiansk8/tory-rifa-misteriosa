@@ -22,19 +22,19 @@ export const participantes = [
     email: "cdpsk8@gmail.com",
     nombre: "cristian parra",
     telefono: "3125225009",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "andreyskate12@gmail.com",
     nombre: "Maicol Álvarez",
     telefono: "3133872570",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "lgildolca@gmail.com",
     nombre: "Luis Gil",
     telefono: "3013083183",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "camiloandren@gmail.com",
@@ -154,109 +154,109 @@ export const participantes = [
     email: "andresmass@hotmail.com",
     nombre: "Andrés",
     telefono: "3168091899",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "alespike69@hotmail.com",
     nombre: "Spike",
     telefono: "3138660951",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "fabiancbk@gmail.com",
     nombre: "Fabián",
     telefono: "3108533753",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "fer1rp@gmail.com",
     nombre: "Fernando",
     telefono: "3112599054",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "cristhiansamirmartinez@gmail.com",
     nombre: "Cristian",
     telefono: "3186831453",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "Felipe.diamante2019@gmail.com",
     nombre: "Juan Felipe",
     telefono: "3027112986",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "yadyolam@hotmail.com",
     nombre: "Yadira",
     telefono: "3103039518",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "juanbmx1110@gmail.com",
     nombre: "Juan",
     telefono: "3132177016",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "diegofzea19@outlook.com",
     nombre: "Gato",
     telefono: "3223104140",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "alejo.nossa@gmail.com",
     nombre: "Alejo",
     telefono: "3203048224",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "contreras.nino.an@gmail.com",
     nombre: "Angélica",
     telefono: "3124123735",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "angelica.Viviana.burgos@gmail.com",
     nombre: "Angelica",
     telefono: "3044268036",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "pnicolas.rojasr@gmail.com",
     nombre: "Rojas",
     telefono: "3223386422",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "sp-skt@hotmail.com",
     nombre: "Santiago",
     telefono: "3219842549",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "davidromerosk8@gmail.com",
     nombre: "Christian",
     telefono: "3146671345",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "dana1.1@hotmail.com",
     nombre: "Valentina",
     telefono: "3134054500",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "marianagarciask8@gmail.com",
     nombre: "Mariana",
     telefono: "3123385698",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "tovarquimbaya@gmail.com",
     nombre: "STIVEN",
     telefono: "3167958716",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "jjoyalopez@gmail.com",
@@ -268,7 +268,7 @@ export const participantes = [
     email: "allang1404@gmail.com",
     nombre: "Allan",
     telefono: "3008462875",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "diosadayro@gmail.com",
@@ -340,85 +340,85 @@ export const participantes = [
     email: "sebvc96@gmail.com",
     nombre: "Sebastián",
     telefono: "3232276751",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "nicolayorguela@hotmail.com",
     nombre: "Nicolay",
     telefono: "3132962657",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "Gacehc@gmail.com",
     nombre: "Panzas",
     telefono: "3142116071",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "smithsk88@hotmail.com",
     nombre: "Smith",
     telefono: "3227780883",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "conectividadnatural@gmail.com",
     nombre: "Cristian",
     telefono: "3236855643",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "pedroamorenocl@gmail.com",
     nombre: "Pedro Moreno",
     telefono: "3202578116",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "juanpa_2001_@hotmail.com",
     nombre: "Chiken",
     telefono: "3106074260",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "juloac.lopez@gmail.com",
     nombre: "Julián López",
     telefono: "3203392967",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "ramirezandresfelipe1997@gmail.com",
     nombre: "Andrés Bermúdez",
     telefono: "3012961991",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "avendanoandresov@gmail.com",
     nombre: "Andrés",
     telefono: "3005726477",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "alejandra012498@gmail.com",
     nombre: "Alejandra Gutiérrez",
     telefono: "3125038315",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "Johanpafa@gmail.com",
     nombre: "Johan Pachon",
     telefono: "1014298661",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "gisanchezm@unal.edu.co",
     nombre: "Gian Totu",
     telefono: "3045304425",
-    boletas: 20
+    boletas: 1
   },
   {
     email: "sergioe_419@hotmail.com",
     nombre: "Sergio Rojas",
     telefono: "3046101741",
-    boletas: 6
+    boletas: 1
   },
   //tanda 26/05/202
   {
@@ -437,25 +437,25 @@ export const participantes = [
     email: "Jvalenciamarin91@gmail.com",
     nombre: "Sebas",
     telefono: "3225432849",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "Enchansibiris@gmail.com",
     nombre: "Laura Velasquez Rodriguez",
     telefono: "3008757469",
-    boletas: 4
+    boletas: 1
   },
   {
     email: "Stefaniafigueredosb@gmail.com",
     nombre: "Stefania Figueredo",
     telefono: "3103089475",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "Mariaabibotero@gmail.com",
     nombre: "María",
     telefono: "3222656851",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "santiagoangulosb@gmail.com",
@@ -467,7 +467,7 @@ export const participantes = [
     email: "Samecitysamelife@gmail.com",
     nombre: "Andrés Cuellar",
     telefono: "3173814808",
-    boletas: 6
+    boletas: 1
   },
   {
     email: "Vanesaacevedo1341@gmail.com",
@@ -479,31 +479,31 @@ export const participantes = [
     email: "ealvarezno25@gmail.com",
     nombre: "Andrés Alvarez",
     telefono: "3001383717",
-    boletas: 20
+    boletas: 1
   },
   {
     email: "victor.arc.uenca@hotmail.com",
     nombre: "Victor Arcila Cuenca",
     telefono: "3152544675",
-    boletas: 10
+    boletas: 1
   },
   {
     email: "alekos20@gmail.com",
     nombre: "Alejo Mutante",
     telefono: "3002712532",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "yesguzmo@gmail.com",
     nombre: "Yesid Moniquira",
     telefono: "n/a",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "claan.sas@hotmail.com",
     nombre: "Adriana Jaramillo",
     telefono: "3002384523",
-    boletas: 5
+    boletas: 1
   },
   {
     email: "noodlevalu@gmail.com",
@@ -515,25 +515,25 @@ export const participantes = [
     email: "ldsanchez723@gmail.com",
     nombre: "David Sánchez",
     telefono: "3164519146",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "cristian1014309@hotmail.com",
     nombre: "Cristian Fajardo",
     telefono: "3112956559",
-    boletas: 10
+    boletas: 1
   },
   {
     email: "nataliarodriguezduarte@gmail.com",
     nombre: "Natalia Rodríguez Duarte",
     telefono: "3144695662",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "carolinagarzonarevalo@gmail.com",
     nombre: "Carolina Garzón Arévalo",
     telefono: "3229504401",
-    boletas: 20
+    boletas: 1
   },
   {
     email: "Luisafc15@gmail.com",
@@ -545,121 +545,121 @@ export const participantes = [
     email: "catcherry.91@gmail.com",
     nombre: "Cherry",
     telefono: "3194159354",
-    boletas: 7
+    boletas: 1
   },
   {
     email: "operacioneslp18@gmail.com",
     nombre: "Oscar Páez",
     telefono: "3196433869",
-    boletas: 4
+    boletas: 1
   },
   {
     email: "Ccedielperdomo@gmail.com",
     nombre: "Cediel Perdomo",
     telefono: "3122112014",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "sk8juliansb@gmail.com",
     nombre: "Julián Rincón ",
     telefono: "3212771727",
-    boletas: 6
+    boletas: 1
   },
   {
     email: "hamon0150@gmail.com",
     nombre: "Johan Stiven Hamon Toledo ",
     telefono: "3052744061",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "gabriellalvarez2604@gmail.com",
     nombre: "Gabriella Alvarez ",
     telefono: "3024058358",
-    boletas: 20
+    boletas: 1
   },
   {
     email: "gonzalez.monica@correounivalle.edu.co",
     nombre: "Monica",
     telefono: "3006606404",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "camiloandresosoriocolmenares@gmail.com",
     nombre: "Camilo Andrés Osorio Colmenares ",
     telefono: "3235940505",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "Molinajosedaniel242@gmail.com",
     nombre: "Daniel Molina",
     telefono: "3138845859",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "lina@depura-creatividad.com",
     nombre: "Lina Navas",
     telefono: "3123315113",
-    boletas: 2
+    boletas: 1
   },
   {
     email: "ricojhricomunera@gmail.com",
     nombre: "Tato munera",
     telefono: "3102372739",
-    boletas: 3
+    boletas: 1
   },
   {
     email: "Cristejada71@gmail.com",
     nombre: "Cristian David Tejada Arismendy",
     telefono: "3193557217",
-    boletas: 5
+    boletas: 1
   },
   {
     email: "mspac-man@hotmail.com",
     nombre: "Paola peñaranda ",
     telefono: "3053018228",
-    boletas: 22
+    boletas: 1
   },
   {
     email: "jaji-23@hotmail.com",
     nombre: "Javier jimenez",
     telefono: "3195557217",
-    boletas: 100
+    boletas: 1
   },
   {
     email: "pedro222@gmail.com",
     nombre: "Pedro palacios",
     telefono: "3195557717",
-    boletas: 100
+    boletas: 1
   },
   {
     email: "sebas-ca@gmail.com",
     nombre: "Sebastin gomez",
     telefono: "3195227717",
-    boletas: 100
+    boletas: 1
   },
   {
     email: "mari-anask8@gmail.com",
     nombre: "Mariana Marin",
     telefono: "3123385698",
-    boletas: 100
+    boletas: 1
   },
   {
     email: "branddolcevita@gmail.com",
     nombre: "Daniel",
     telefono: "3118521770",
-    boletas: 30
+    boletas: 1
   },
   {
     email: "giraldoviera.miguel@gmail.com",
     nombre: "Miguel giraldo",
     telefono: "3015107633",
-    boletas: 45
+    boletas: 1
   },
   {
     email: "davidzj789@gmail.com",
     nombre: "David Rivera",
     telefono: "3185206533",
-    boletas: 3
+    boletas: 1
   }
   
 ]
