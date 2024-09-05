@@ -67,7 +67,7 @@ const Sorteo = () => {
 
   return (
     <div>
-      <p>El sorteo es este miércoles 5 de junio</p>
+      <p>El sorteo es este domingo 22 de septiembre</p>
       <Image
         src='/location.png'
         width={60}
