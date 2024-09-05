@@ -34,7 +34,7 @@ function ocultarTexto(text, startLen, endLen) {
 function cifrarGanador(ganador) {
   return {
     ...ganador,
-    nombre: ocultarTexto(ganador.nombre, 3, 3),
+    nombre: ocultarTexto(ganador.nombre, 0, 0),
     email: ocultarTexto(ganador.email, 3, 3),
     telefono: ocultarTexto(ganador.telefono, 3, 3)
   };
