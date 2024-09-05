@@ -394,7 +394,7 @@ export const participantes = [
     email: "avendanoandresov@gmail.com",
     nombre: "Andrés",
     telefono: "3005726477",
-    boletas: 1
+    boletas: 3
   },
   {
     email: "alejandra012498@gmail.com",
@@ -660,6 +660,301 @@ export const participantes = [
     nombre: "David Rivera",
     telefono: "3185206533",
     boletas: 1
-  }
-  
+  },
+  {
+    email: "dianavila27@gmail.com",
+    nombre: "Merlina",
+    boletas: 2
+},
+{
+  email: "ccddayane@gmail.com",
+  nombre: "Stefy",
+  boletas: 2
+},
+{
+  email: "Edwin.18-@hotmail.com",
+  nombre: "Pulpo",
+  boletas: 1
+},
+{
+  email: "Brayanrodriguezsk8@gmail.com",
+  nombre: "Calle",
+  boletas: 1
+},
+{
+  email: "javierco9120@hotmail.com",
+  nombre: "Javier pinto",
+  boletas: 2
+},
+{
+  email: "@tatanbarbosa01",
+  nombre: "Tatan",
+  boletas: 2
+},
+{
+  email: "mateoskate12@gmail.com",
+  nombre: "Vahos mateo",
+  boletas: 1
+},
+{
+  email: "Antoniokv96@gmail.com",
+  nombre: "Antonio ríos",
+  boletas: 1
+},
+{
+  email: "curicobrito@gmail.com",
+  nombre: "Luis Eduardo",
+  boletas: 1
+},
+{
+  email: "lolarte9706@gmail.com",
+  nombre: "Laura Marcela",
+  boletas: 2
+},
+{
+  email: "lealuisa02@gmail.com",
+  nombre: "Luisa leal",
+  boletas: 1
+},
+{
+  email: "valearevalo420@gmail.com",
+  nombre: "Valentina Arevalo",
+  boletas: 1
+},
+{
+  email: "callerealcol@gmail.com",
+  nombre: "Camilo Zapata",
+  boletas: 2
+},
+{
+  email: "nagaradesing@gmail.com",
+  nombre: "Nataly",
+  boletas: 1
+},
+{
+  email: "sebastiangarciampa@gmail.com",
+  nombre: "Cóndor",
+  boletas: 1
+},
+{
+  email: "danieli.gomezd@gmail.com",
+  nombre: "Yepes",
+  boletas: 2
+},
+{
+  email: "lasmith_72@hotmil.com",
+  nombre: "Queso",
+  boletas: 1
+},
+{
+  email: "mateoruddph@gmail.com",
+  nombre: "Mateo rudd",
+  boletas: 2
+},
+{
+  email: "marlon_1295@hotmail.com",
+  nombre: "Marliton",
+  boletas: 5
+},
+{
+  email: "paporro1@hotmail.com",
+  nombre: "Stefan Melo",
+  boletas: 2
+},
+{
+  email: "freemartin94@gmail.com",
+  nombre: "Cristian Martinez",
+  boletas: 1
+},
+{
+  email: "Dayisbonita2011@gmail.com",
+  nombre: "Dayisbonita2011",
+  boletas: 1
+},
+{
+  email: "carlosaugusto781@gmail.com",
+  nombre: "Calos cruz",
+  boletas: 1
+},
+{
+  email: "cristian1014309@hotmail.com",
+  nombre: "Cristian Fajardo",
+  boletas: 5
+},
+{
+  email: "Santiago.sb18@gmail.com",
+  nombre: "Paco",
+  boletas: 1
+},
+{
+  email: "Diego.luque005@gmail.com",
+  nombre: "Diego Luque",
+  boletas: 2
+},
+{
+  email: "avendanoandresov@gmail.com",
+  nombre: "Andrés Avendaño",
+  boletas: 2
+},
+{
+  email: "Andreyskate12@gmail.com",
+  nombre: "Maicol Alvarez",
+  boletas: 1
+},
+{
+  email: "Lauraluciagalvisnungo@gmail.com",
+  nombre: "Laura Galvis",
+  boletas: 1
+},
+{
+  email: "ingcantillodelahoz@icloud.com",
+  nombre: "Choco original leyenda del patín",
+  boletas: 5
+},
+{
+  email: "sofiaperezg1602@gmail.com",
+  nombre: "Banana",
+  boletas: 1
+},
+{
+  email: "josemanuelruiz991@gmail.com",
+  nombre: "Jose Ruiz",
+  boletas: 1
+},
+{
+  email: "santiagolunaxd@gmail.com",
+  nombre: "Santiago luna",
+  boletas: 1
+},
+{
+  email: "Guillermo.canceladotp@gmail.com",
+  nombre: "Guillermo cancelado",
+  boletas: 1
+},
+{
+  email: "Riverskate86@gmail.com",
+  nombre: "Michele rivera",
+  boletas: 1
+},
+{
+  email: "Jpcoachskate@gmail.com",
+  nombre: "Juan Pablo acero bustos",
+  boletas: 1
+},
+{
+  email: "src.skateclub@gmail.com",
+  nombre: "Cristian Camilo Pirajan Pérez",
+  boletas: 1
+},
+{
+  email: "Mlopez.suescun85@gmail.com",
+  nombre: "Michael López",
+  boletas: 1
+},
+{
+  email: "Rowleysersk8@gmail.com",
+  nombre: "Sergiño",
+  boletas: 1
+},
+{
+  email: "Santiagopmoreno25@gmail.com",
+  nombre: "Piña🍍",
+  boletas: 2
+},
+{
+  email: "jocortegongi01@gmail.com",
+  nombre: "Johan👽",
+  boletas: 1
+},
+{
+  email: "Sebask89808@gmail.com",
+  nombre: "Sebastian Gutierrez",
+  boletas: 1
+},
+{
+  email: "Sg-rippet@hotmail.com",
+  nombre: "Mora",
+  boletas: 4
+},
+{
+  email: "Suazalo.98@gmail.com",
+  nombre: "Nicolás López",
+  boletas: 2
+},
+{
+  email: "Nataliabernalvarado@gmail.com",
+  nombre: "Natalia Bernal",
+  boletas: 2
+},
+{
+  email: "Daka666sb@gmail.com",
+  nombre: "Arianna",
+  boletas: 1
+},
+{
+  email: "Anderssoncastillo00@gmail.com",
+  nombre: "Felipe",
+  boletas: 1
+},
+{
+  email: "Davidpp07skate@hotmail.com",
+  nombre: "David peña",
+  boletas: 1
+},
+{
+  email: "Ing.berrio.df@gmail.com",
+  nombre: "Ing.berrio.df",
+  boletas: 1
+},
+{
+  email: "Nicolayorjuela@hotmail.com",
+  nombre: "Nicolay",
+  boletas: 1
+},
+{
+  email: "asesoriascastimar@gmail.com",
+  nombre: "Ximena",
+  boletas: 1
+},
+{
+  email: "Alexgzfilms@gmail.com",
+  nombre: "Alexgzfilms",
+  boletas: 1
+},
+{
+  email: "Adgomezr@gmail.com",
+  nombre: "Adgomezr",
+  boletas: 1
+},
+{
+  email: "Juladns21@gmail.com",
+  nombre: "Juana Bernal",
+  boletas: 1
+},
+{
+  email: "Tatatru1994@gmail.com",
+  nombre: "Tatiana Echeverría",
+  boletas: 1
+},
+{
+  email: "aleeeraso98@gmail.com",
+  nombre: "Maria castro",
+  boletas: 1
+},
+{
+  email: "yeicyjimenez09@gmail.com",
+  nombre: "Yeicy Bohórquez",
+  boletas: 10
+},
+{
+  email: "cristianc1024@gmail.com",
+  nombre: "Cristian Escobar",
+  boletas: 5
+},
+{
+  email: "Dla_mottam@ucentral.edu.co",
+  nombre: "Dany risas ",
+  boletas: 10
+}
+
 ]
