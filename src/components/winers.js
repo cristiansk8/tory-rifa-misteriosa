@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { participantes } from '../../data';
 import Image from 'next/image'
 
-
 function realizarSorteo(participantes, numGanadores) {
   const listaSorteo = [];
   participantes.forEach(participante => {
@@ -12,6 +11,11 @@ function realizarSorteo(participantes, numGanadores) {
       listaSorteo.push(participante);
     }
   });
+
+  // Verifica si hay suficientes participantes para el sorteo
+  if (listaSorteo.length < numGanadores) {
+    return [];
+  }
 
   const ganadores = new Set();
   while (ganadores.size < numGanadores) {
@@ -45,37 +49,51 @@ const Sorteo = () => {
   const [error, setError] = useState(null);
 
   const handleSorteo = () => {
+    try {
       const ganadoresOriginales = realizarSorteo(participantes, 3);
+      console.log('Ganadores originales:', ganadoresOriginales); // Verifica los ganadores originales
+      if (ganadoresOriginales.length === 0) {
+        setError('No hay suficientes participantes para el sorteo.');
+        return;
+      }
       const ganadoresCifrados = ganadoresOriginales.map(cifrarGanador);
       setGanadores(ganadoresCifrados);
       setError(null);
-
+    } catch (err) {
+      console.error('Error en el sorteo:', err); // Muestra errores en la consola
+      setError('Hubo un problema al realizar el sorteo.');
+    }
   };
 
   return (
     <div>
       <p>El sorteo es este miércoles 5 de junio</p>
       <Image
-      src='/location.png'
-      width={60}
-      height={60}
-      alt='location-rifa-tory'
-    />
+        src='/location.png'
+        width={60}
+        height={60}
+        alt='location-rifa-tory'
+      />
       <h1>Lugar: "pronto sera anunciado"</h1>
       <button onClick={handleSorteo}>Prueba tu suerte</button>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <h2>Ganadores:</h2>
-      {ganadores.map((ganador, index) => (
-        <div key={index}>
-          <p>Ganador {index + 1}</p>
-          <p>Nombre: {ganador.nombre}</p>
-          <p>Email: {ganador.email}</p>
-          <p>Email: {ganador.telefono}</p>
-          <p>-----</p>
-        </div>
-      ))}
+      {ganadores.length > 0 ? (
+        ganadores.map((ganador, index) => (
+          <div key={index}>
+            <p>Ganador {index + 1}</p>
+            <p>Nombre: {ganador.nombre}</p>
+            <p>Email: {ganador.email}</p>
+            <p>Teléfono: {ganador.telefono}</p>
+            <p>-----</p>
+          </div>
+        ))
+      ) : (
+        <p>No hay ganadores aún.</p>
+      )}
     </div>
   );
 };
 
 export default Sorteo;
+
