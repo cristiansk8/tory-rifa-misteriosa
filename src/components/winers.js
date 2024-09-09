@@ -50,7 +50,7 @@ const Sorteo = () => {
 
   const handleSorteo = () => {
     try {
-      const ganadoresOriginales = realizarSorteo(participantes, 3);
+      const ganadoresOriginales = realizarSorteo(participantes, 1);
       console.log('Ganadores originales:', ganadoresOriginales); // Verifica los ganadores originales
       if (ganadoresOriginales.length === 0) {
         setError('No hay suficientes participantes para el sorteo.');
