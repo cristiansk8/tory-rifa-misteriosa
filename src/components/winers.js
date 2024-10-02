@@ -50,7 +50,7 @@ const Sorteo = () => {
 
   const handleSorteo = () => {
     try {
-      const ganadoresOriginales = realizarSorteo(participantes, 1);
+      const ganadoresOriginales = realizarSorteo(participantes, 2);
       console.log('Ganadores originales:', ganadoresOriginales); // Verifica los ganadores originales
       if (ganadoresOriginales.length === 0) {
         setError('No hay suficientes participantes para el sorteo.');
@@ -67,7 +67,7 @@ const Sorteo = () => {
 
   return (
     <div>
-      <p>El sorteo es este domingo 22 de septiembre</p>
+      <p>El sorteo es este martes 15 de octubre</p>
       <Image
         src='/location.png'
         width={60}
@@ -81,7 +81,7 @@ const Sorteo = () => {
       {ganadores.length > 0 ? (
         ganadores.map((ganador, index) => (
           <div key={index}>
-            <p>Ganador {index + 1}</p>
+            <b>¡ Felicidades !</b>
             <p>Nombre: {ganador.nombre}</p>
             <p>Email: {ganador.email}</p>
             <p>Teléfono: {ganador.telefono}</p>

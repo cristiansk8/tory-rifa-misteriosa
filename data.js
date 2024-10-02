@@ -20,7 +20,7 @@ export const participantes = [
   },
   {
     email: "cdpsk8@gmail.com",
-    nombre: "cristian parra",
+    nombre: "Cristito",
     telefono: "3125225009",
     boletas: 1
   },
@@ -789,7 +789,7 @@ export const participantes = [
 },
 {
   email: "Dayisbonita2011@gmail.com",
-  nombre: "Dayisbonita2011",
+  nombre: "Dayis bonita 2011",
   boletas: 1,
   telefono: "3121234567"
 },
