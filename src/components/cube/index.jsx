@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useRef } from 'react'
-import { Canvas, useLoader } from '@react-three/fiber';
+import { Canvas, useFrame, useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three/src/loaders/TextureLoader';
 import { OrbitControls} from '@react-three/drei';
 import { useMotionValue, useSpring, useScroll, useTransform } from 'framer-motion';
@@ -17,8 +17,8 @@ export default function Index() {
     const smoothProgress = useSpring(progress, {damping: 20});
 
     return (
-        <div ref={container} className="w-full">
-            <div className="w-full">
+        <div ref={container} className="w-full h-screen">
+            <div className="w-full h-full">
                 <Canvas>
                     <OrbitControls enableZoom={false} enablePan={false}/>
                     <ambientLight intensity={2}/>
@@ -33,30 +33,22 @@ export default function Index() {
 function Cube({progress}) {
 
     const mesh = useRef(null);
-   
-    // const options = {
-    //     damping: 20
-    // }
     
-    // const mouse = {
-    //     x: useSpring(useMotionValue(0), options),
-    //     y: useSpring(useMotionValue(0), options)
-    // }
-
-    // const manageMouseMove = (e) => {
-    //     const { innerWidth, innerHeight } = window;
-    //     const { clientX, clientY } = e; 
-    //     const x = -0.5 + (clientX / innerWidth)
-    //     const y = -0.5 + (clientY / innerHeight)
-    //     mouse.x.set(x);
-    //     mouse.y.set(y);
-    // }
-
-    // useEffect( () => {
-    //     window.addEventListener("mousemove", manageMouseMove)
-
-    //     return () => window.removeEventListener("mouse", manageMouseMove);
-    // }, [])
+    // Animación armónica continua
+    useFrame((state) => {
+        if (mesh.current) {
+            const time = state.clock.getElapsedTime();
+            
+            // Movimiento armónico en Y (oscilación vertical)
+            mesh.current.position.y = Math.sin(time * 0.8) * 0.5;
+            
+            // Movimiento armónico en X (oscilación horizontal)
+            mesh.current.position.x = Math.cos(time * 0.6) * 0.3;
+            
+            // Rotación armónica adicional
+            mesh.current.rotation.z = Math.sin(time * 0.5) * 0.2;
+        }
+    });
 
     const texture_1 = useLoader(TextureLoader, "/assets/8.jpg")
     const texture_2 = useLoader(TextureLoader, "/assets/2.jpg")
