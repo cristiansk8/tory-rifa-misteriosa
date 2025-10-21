@@ -25,7 +25,7 @@ export const participantes = [
     email: "Camilo1_1@gmail.com",
     nombre: "Camilo Viracacha",
     telefono: "3508974465",
-    boletas: 50,
+    boletas: 1,
     talla: "7 us, 40 eu"
   }
   
